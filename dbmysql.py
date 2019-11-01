@@ -3,7 +3,7 @@ import json,os
 
 def db_insert():
     try:
-        conn = pymysql.connect(host='106.54.23.221', user='root', passwd='miaoz1103', db='med', port=3306, charset='utf8')
+        conn = pymysql.connect(host='', user='', passwd='3', db='', port=3306, charset='utf8')
         cur = conn.cursor()
         cur.execute('desc medie')
         data = cur.fetchall()
