@@ -132,12 +132,12 @@ def re_Txt(filepath):
         f.write(dictjson.encode())
     return dict
 
-# pdf_to_Image(r'sorce/1.pdf', 'imageset/1')
-# for i in range(2,1000):
-#     try:
-#         filepath='imageset/6/page_'+str(i)+'.png'
-#         baiduOCR_Image_to_Txt(filepath)
-#     except:
-#         continue
+pdf_to_Image(r'sorce/1.pdf', 'imageset/1')
+for i in range(2,1000):
+    try:
+        filepath='imageset/6/page_'+str(i)+'.png'
+        baiduOCR_Image_to_Txt(filepath)
+    except:
+        continue
 re_Txt("sorce/apitxtmin.txt")
 second_JSON()
