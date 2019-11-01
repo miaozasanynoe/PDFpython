@@ -13,9 +13,9 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 from aip import AipOcr
 
 #百度api参数设置---------
-APP_ID = '15688549'
-API_KEY = '7VQTOMc0rU8kSNR4jyRfDWWQ'
-SECRET_KEY = 'WLE4QwV8fouBGI3FUpEb7c9U9d3WzagD'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 #新建一个AipOcr
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 #可选参数
